@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Baskervville SC", serif;
+}
+
+h1 {
+    font-family: "Sevillana", cursive;
+    letter-spacing: 1.9px;
+    color: #A1D6B2;
+    font-size: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text input {
+    width: 200px;
+    padding: 4px;
+    font-size: 20px;
+}
+
+.text button {
+    width: 35px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #FFEAC5;
+}
+
+.define {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.define h4{
+    color: #41B3A2;
+    font-size: 21px;
+}
+.define h3{
+    font-size: 30px;
+}
+
+.define p{
+    font-size: 19px;
+    font-family: "Roboto Condensed", sans-serif;
+}
